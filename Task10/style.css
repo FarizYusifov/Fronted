@@ -1,0 +1,23 @@
+.farcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.farcontainer img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.farcon {
+    margin-top: 10px;
+}
+
+.farcon img {
+    height: 680px;
+    object-fit: cover;
+}
