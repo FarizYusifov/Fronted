@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ice {
+    background-color: rgb(38, 149, 193);
+    padding: 90px;
+    height: 100%;
+    border: 1px solid white;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease;
+
+}
+
+.box {
+    cursor: pointer;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.box {
+    border: 1px solid white;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box>div {
+    border: 1px solid white;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.box1 {
+    grid-row: 2;
+    grid-column: 2;
+    animation-name: box1;
+}
+
+.box2 {
+    grid-row: 1;
+    grid-column: 1;
+    animation-name: box2;
+}
+
+.box3 {
+    grid-row: 2;
+    grid-column: 3;
+    animation-name: box3;
+}
+
+.box4 {
+    grid-row: 3;
+    grid-column: 1;
+    animation-name: box4;
+}
+
+.box5 {
+    grid-row: 3;
+    grid-column: 3;
+    animation-name: box5;
+}
+
+.box6 {
+    grid-row: 1;
+    grid-column: 3;
+    animation-name: box6;
+}
+
+.box7 {
+    grid-row: 2;
+    grid-column: 1;
+    animation-name: box7;
+}
+
+.box8 {
+    grid-row: 1;
+    grid-column: 2;
+    animation-name: box8;
+}
+
+.box9 {
+    grid-row: 3;
+    grid-column: 2;
+    animation-name: box9;
+}
+
+@keyframes box1 {
+    from {
+        transform: translate(-100%, -100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box2 {
+    from {
+        transform: translate(100%, 0);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box3 {
+    from {
+        transform: translate(0, -100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box4 {
+    from {
+        transform: translate(0, -100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box5 {
+    from {
+        transform: translate(-100%, -100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box6 {
+    from {
+        transform: translate(0, 100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box7 {
+    from {
+        transform: translate(0, 100%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box8 {
+    from {
+        transform: translate(0, 200%);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes box9 {
+    from {
+        transform: translate(100%, 0);
+    }
+
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: .6s;
+}
