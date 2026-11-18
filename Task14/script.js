@@ -97,5 +97,46 @@
 // }
 // console.log(ters);
 
+// HTML KOD
+// <h1>GeForce 20</h1>
+// <ul>
+//   <li>GTX 1650</li>
+//   <li>GTX 1660</li>
+//   <li class="primary">GTX 1660 Ti</li>
+//   <li>RTX 2070</li>
+//   <li>RTX 2080</li>
+//   <li class="primary">RTX 2080 Ti</li>
+// </ul>
 
+
+
+// 1)
+
+// HTML-kod verilmişdir. Siyahının ilk elementini konsola çıxarın.
+
+// let a = document.querySelector("li");
+// console.log(a);
+
+
+// 2)
+
+// HTML-kod verilmişdir. Yalnız JS-kodundan istifadə edərək dəyişklik edin:
+// - Başlığı silin;
+// - Siyahının sonuna mətn ilə yeni bir bölmə «TITAN RTX» əlavə edin .
+
+// document.querySelector("h1").remove();
+// let a = document.createElement("li");
+// a.textContent = "TITAN RTX";
+// document.querySelector("ul").append(a);
+
+// 3)
+
+// HTML-kod verilmişdir. Yalnız JS-kodundan istifadə edərək dəyişklik edin:
+// - başlıq mətnini «GeForce 20 Series» -a;
+// - fon rəngi stili primary klası olan elementləri #ebebeb rənginə dəyişdirin.
+
+
+// 4)
+
+// HTML-kodu verilib. Siyahının primary klasına sahib olan bütün elementlərini konsola çıxarın.
 
